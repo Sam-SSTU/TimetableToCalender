@@ -2,10 +2,6 @@
 
 ![image-20201](https://tva1.sinaimg.cn/large/007S8ZIlly1gjnpdhndsfj31970u0n4s.jpg)
 
-## 简介
-
-学校研究生没有本科待遇，课表没有录入系统😢，遂借鉴**[junyilou/python-ical-timetable](https://github.com/junyilou/python-ical-timetable)**适配了课程。项目生成ics文件导入Apple设备的日历应用，可以方便随时查看课表。
-
 ## 功能
 * 支持录入课程名称，教师，上课地点，上课时间（也可以通过修改代码自己添加附加信息）
 
