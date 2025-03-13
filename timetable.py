@@ -60,40 +60,54 @@ def timetable(maxWeek, classTime, starterDay, classes, oneClassTime=45):
 
 
 def main():
-    maxWeek = 20
-    classTime = [None, (8, 20), (9, 15), (10, 20), (11, 15), (14, 00), (14, 55), 
-    (16, 00), (16, 55), (19, 0), (19, 55), (20, 50)]
-    starterDay = datetime(2020, 8, 31)
-    classes = [
-        ['数据科学1班', '张兴兰/陆艳军', '5-508', rgWeek(12, 19), 1, [3, 4]],
-        ['综合英语10班', '彭静', '1-603', rgWeek(4, 10), 2, [3, 4]],
-        ['综合英语10班', '彭静', '1-603', rgWeek(12, 16), 2, [3, 4]],
-        ['数据科学1班', '张兴兰/陆艳军', '5-508', rgWeek(12, 19), 2, [5, 6]],
-        ['算法设计与分析1班', '陈媛', '5-508', rgWeek(4, 10), 2, [7, 8]],
-        ['算法设计与分析1班', '陈媛', '5-508', rgWeek(12, 16), 2, [7, 8]],
-        ['综合英语10班', '彭静', '4-512', rgWeek(4, 10), 3, [3, 4]],
-        ['综合英语10班', '彭静', '4-512', rgWeek(12, 13), 3, [3, 4]],
-        ['综合英语10班', '彭静', '1-603', rgWeek(14, 16), 3, [3, 4]],
-        ['算法设计与分析1班', '陈媛', '5-508', rgWeek(4, 7), 3, [7, 8]],
-        ['算法设计与分析1班', '陈媛', '4-314', rgWeek(8, 10), 3, [7, 8]],
-        ['算法设计与分析1班', '陈媛', '4-314', rgWeek(12, 16), 3, [7, 8]],
-        ['数据科学1班', '张兴兰/陆艳军', '4-310', rgWeek(12, 19), 4, [1, 2]],
-        ['计算智能及应用1班', '石美凤', '5-508', rgWeek(6, 10), 4, [1, 2]],
-        ['高等工程数学1班', '许安见/谢挺', '5-509', rgWeek(7, 10), 4, [3, 4]],
-        ['高等工程数学1班', '许安见/谢挺', '5-509', rgWeek(12, 19), 4, [3, 4]],
-        ['英语听说9班', 'Chris', '1-608', rgWeek(4, 9), 4, [5, 6]],
-        ['学术规范与科技论文写作', '刘小洋', '5-508', rgWeek(6, 9), 4, [7, 8]],
-        ['学术规范与科技论文写作', '刘小洋', '5-508', rgWeek(6, 9), 4, [9, 10]],
-        ['计算智能及应用1班', '石美凤', '5-508', rgWeek(6, 10), 5, [1, 2]],
-        ['计算智能及应用1班', '石美凤', '5-508', rgWeek(12, 17), 5, [1, 2]],
-        ['高等工程数学1班', '许安见/谢挺', '5-508', rgWeek(7, 10), 5, [3, 4]],
-        ['高等工程数学1班', '许安见/谢挺', '5-508', rgWeek(12, 19), 5, [3, 4]],
-        ['机器学习及应用1班', '冯欣/龙建武', '5-508', rgWeek(6, 10), 5, [5, 6]],
-        ['机器学习及应用1班', '冯欣/龙建武', '5-508', rgWeek(12, 19), 5, [5, 6]],
-        ['中国特色社会主义理论与实践研究8班', '黎野', '1-605', rgWeek(4, 10), 5, [7, 8]],
-        ['中国特色社会主义理论与实践研究8班', '黎野', '1-605', rgWeek(12, 16), 5, [7, 8]],
-        ['机器学习及应用1班', '冯欣/龙建武', '5-508', rgWeek(6, 8), 5, [9, 10]],
+    maxWeek = 100  # 可以设置更大的周数
+    # 根据课表的时间设置
+    classTime = [None, 
+        (8, 0),   # Period 1
+        (8, 50),  # Period 2
+        (9, 40),  # Period 3
+        (10, 30), # Period 4
+        (11, 20), # Period 5
+        (12, 10), # Period 6
+        (13, 0),  # Period 7
+        (13, 50), # Period 8
+        (14, 40), # Period 9
+        (15, 30)  # Period 10
     ]
+    
+    starterDay = datetime(2025, 3, 10)  # 设置为本学期第一周的星期一
+    
+    classes = [
+        # Monday
+        ['Chinese', 'Zoey Zhai', 'Boxue 514', rgWeek(1, 20), 1, [3]],
+        ['Mathematics', 'Lexie Kong', 'Boxue 514', rgWeek(1, 20), 1, [7, 8]],
+        ['English', 'Wang Yihan', 'Boxue 514', rgWeek(1, 20), 1, [9, 10]],
+        
+        # Tuesday
+        ['Mathematics', 'Lexie Kong', 'Boxue 514', rgWeek(1, 20), 2, [1, 2]],
+        ['Economics', 'Jonas Zhang', 'Boxue 514', rgWeek(1, 20), 2, [3, 4]],
+        ['Music', 'Ye Teng', 'Boxue 708', rgWeek(1, 20), 2, [5]],
+        ['Chinese', 'Zoey Zhai', 'Boxue 514', rgWeek(1, 20), 2, [7]],
+        ['P.E.', 'Lucas Jin', 'Playground 2', rgWeek(1, 20), 2, [9]],
+        
+        # Wednesday
+        ['English', 'Wang Yihan', 'Boxue 514', rgWeek(1, 20), 3, [1, 2]],
+        ['Accounting', 'Cynthia Zhang', 'Boxue 511', rgWeek(1, 20), 3, [3]],
+        ['Class Meeting', 'Wang Yihan', 'Boxue 514', rgWeek(1, 20), 3, [7]],
+        ['Mathematics', 'Lexie Kong', 'Boxue 514', rgWeek(1, 20), 3, [8]],
+        
+        # Thursday
+        ['Economics', 'Jonas Zhang', 'Boxue 514', rgWeek(1, 20), 4, [3]],
+        ['English', 'Shawna Saari', 'Boxue 514', rgWeek(1, 20), 4, [4, 5]],
+        ['Accounting', 'Cynthia Zhang', 'Boxue 511', rgWeek(1, 20), 4, [9, 10]],
+        
+        # Friday
+        ['Economics', 'Jonas Zhang', 'Boxue 514', rgWeek(1, 20), 5, [1, 2]],
+        ['P.E.', 'Lucas Jin', 'Playground 2', rgWeek(1, 20), 5, [3]],
+        ['Mathematics', 'Lexie Kong', 'Boxue 514', rgWeek(1, 20), 5, [4, 5]],
+        ['Accounting', 'Cynthia Zhang', 'Boxue 511', rgWeek(1, 20), 5, [8, 9]]
+    ]
+    
     filename = 'timetable.ics'
     with open(filename, 'w') as f:
         f.write(timetable(maxWeek, classTime, starterDay, classes))

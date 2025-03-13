@@ -1,0 +1,40 @@
+Student: YANG Hanqi (24028307) Class: G2-H
+
+Monday:
+Period 3 (09:40-10:20): Chinese - Zoey Zhai (Boxue 514)
+Period 7 (13:00-13:40): Mathematics - Lexie Kong (Boxue 514)
+Period 8 (13:50-14:30): Mathematics - Lexie Kong (Boxue 514)
+Period 9 (14:40-15:20): English - Wang Yihan (Boxue 514)
+Period 10 (15:30-16:10): English - Wang Yihan (Boxue 514)
+
+Tuesday:
+Period 1 (08:00-08:40): Mathematics - Lexie Kong (Boxue 514)
+Period 2 (08:50-09:30): Mathematics - Lexie Kong (Boxue 514)
+Period 3 (09:40-10:20): Economics - Jonas Zhang (Boxue 514)
+Period 4 (10:30-11:10): Economics - Jonas Zhang (Boxue 514)
+Period 5 (11:20-12:00): Music - Ye Teng (Boxue 708)
+Period 7 (13:00-13:40): Chinese - Zoey Zhai (Boxue 514)
+Period 9 (14:40-15:20): P.E. - Lucas Jin (Playground 2)
+
+Wednesday:
+Period 1 (08:00-08:40): English - Wang Yihan (Boxue 514)
+Period 2 (08:50-09:30): English - Wang Yihan (Boxue 514)
+Period 3 (09:40-10:20): Accounting - Cynthia Zhang (Boxue 511)
+Period 7 (13:00-13:40): Class Meeting - Wang Yihan (Boxue 514)
+Period 8 (13:50-14:30): Mathematics - Lexie Kong (Boxue 514)
+
+Thursday:
+Period 3 (09:40-10:20): Economics - Jonas Zhang (Boxue 514)
+Period 4 (10:30-11:10): English - Shawna Saari (Boxue 514)
+Period 5 (11:20-12:00): English - Shawna Saari (Boxue 514)
+Period 9 (14:40-15:20): Accounting - Cynthia Zhang (Boxue 511)
+Period 10 (15:30-16:10): Accounting - Cynthia Zhang (Boxue 511)
+
+Friday:
+Period 1 (08:00-08:40): Economics - Jonas Zhang (Boxue 514)
+Period 2 (08:50-09:30): Economics - Jonas Zhang (Boxue 514)
+Period 3 (09:40-10:20): P.E. - Lucas Jin (Playground 2)
+Period 4 (10:30-11:10): Mathematics - Lexie Kong (Boxue 514)
+Period 5 (11:20-12:00): Mathematics - Lexie Kong (Boxue 514)
+Period 8 (13:50-14:30): Accounting - Cynthia Zhang (Boxue 511)
+Period 9 (14:40-15:20): Accounting - Cynthia Zhang (Boxue 511)
